@@ -1,0 +1,109 @@
+/* Reset some basic elements */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #FF6699;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signin-btn, .register-btn {
+  background-color: #66CCCC;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hero-section {
+  background-color: #FFDDE1;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  color: #FF6699;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  background-color: #FF6699;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-placeholder {
+  background-color: #E6E6E6;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #FFF;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #FF6699;
+  font-weight: bold;
+}
